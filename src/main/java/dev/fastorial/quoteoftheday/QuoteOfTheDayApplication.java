@@ -1,13 +1,13 @@
-package dev.fastorial.dockerzerotocd;
+package dev.fastorial.quoteoftheday;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DockerzerotocdApplication {
+public class QuoteOfTheDayApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DockerzerotocdApplication.class, args);
+		SpringApplication.run(QuoteOfTheDayApplication.class, args);
 	}
 
 }

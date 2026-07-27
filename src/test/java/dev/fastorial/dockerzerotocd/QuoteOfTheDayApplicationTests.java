@@ -1,10 +1,10 @@
-package dev.fastorial.dockerzerotocd;
+package dev.fastorial.quoteoftheday;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DockerzerotocdApplicationTests {
+class QuoteOfTheDayApplicationTests {
 
 	@Test
 	void contextLoads() {
