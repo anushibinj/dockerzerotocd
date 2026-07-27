@@ -1,5 +1,6 @@
-FROM maven:3.9.16-eclipse-temurin-21-alpine
+FROM maven:3.9-eclipse-temurin-21-alpine
 
+WORKDIR /app
 COPY . .
-
-CMD ["mvn", "compile"]
+RUN ["mvn", "clean", "install"]
+CMD ["mvn", "spring-boot:run"]
